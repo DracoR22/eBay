@@ -6,6 +6,8 @@ import Product from './components/Product';
 import MainLayout from './layouts/MainLayout';
 import useIsLoading from "./hooks/useIsLoading"
 
+export const dynamic = 'force-dynamic'
+
 export default function Home() {
 
   const [products, setProducts] = useState([])
